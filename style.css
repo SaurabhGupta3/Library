@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.newBook {
+    height: 50px;
+    width: 200px;
+    background-color: bisque;
+    color: green;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.card {
+    display: flex;
+    height: 300px;
+    width: 200px;
+    border: 2px solid black;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: lightcoral;
+}
+.card-items {
+    flex:  1;
+    display: flex;
+    align-items: center;
+    
+}
+.space {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    height: 30px;
+    width: 90px;
+    background-color: wheat;
+    color: lightcoral;
+    font-weight: bold;
+    border-radius: 8em;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+}

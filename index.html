@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Library</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <button class="newBook">newBook</button>
+        <br />
+        <br />
+        <div class="container">
+            <div class="card">
+                <h3>Book</h3>
+                <div class="card-items title">
+                    <b>Title:</b> The Concept of Physics
+                </div>
+                <div class="card-items author"><b>Author:</b> H.C Verma</div>
+                <div class="card-items pages"><b>pages:</b> 333</div>
+                <div class="card-items read">
+                    <b>isRead</b> = <input type="checkbox" id="mera" />
+                </div>
+                <div class="card-items space">
+                    <button>delete</button>
+                </div>
+            </div>
+        </div>
+        <dialog class="cardDialog">
+            <form method="dialog">
+                <label for="newTitle">Title:</label>
+                <input type="text" class="newTitle" name="newTitle" required />
+                <br />
+                <label for="newAuthor">Author:</label>
+                <input
+                    type="text"
+                    class="newAuthor"
+                    name="newAuthor"
+                    required
+                />
+                <br />
+                <label for="newPages">pages:</label>
+                <input
+                    type="number"
+                    class="newPages"
+                    name="newPages"
+                    required
+                />
+                <br />
+                <label for="newRead">isRead:</label>
+                <input type="checkbox" class="newRead" name="newRead" />
+                <br />
+                <div>
+                    <button type="button" class="saveButton">Save</button>
+                    <button type="button" class="cancelButton">cancel</button>
+                </div>
+            </form>
+        </dialog>
+        <script src="script.js"></script>
+    </body>
+</html>
