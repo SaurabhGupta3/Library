@@ -24,7 +24,7 @@ document.querySelector(".newBook").addEventListener("click", () => {
         const newCard = cardTemplate.cloneNode(true);
 
         newCard.querySelector(".title").textContent = `Title: ${newTitle}`;
-        newCard.querySelector(".author").textContent = `Author: ${newTitle}`;
+        newCard.querySelector(".author").textContent = `Author: ${newAuthor}`;
         newCard.querySelector(".pages").textContent = `pages: ${newPages}`;
         newCard.querySelector(".read").checked = isChecked;
         const cardIndex = myLibrary.length;
